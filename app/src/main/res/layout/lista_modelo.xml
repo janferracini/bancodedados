@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lblNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_toStartOf="@+id/LinearDados"
+        android:layout_toLeftOf="@+id/LinearDados"
+        android:text="Nome" />
+
+    <LinearLayout
+        android:id="@+id/LinearDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="1dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblRa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RA" />
+
+        <TextView
+            android:id="@+id/lblCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cidade" />
+    </LinearLayout>
+
+</RelativeLayout>
